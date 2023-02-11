@@ -8,7 +8,7 @@ Edit **any C# function** and get immediate updates in your game. Hot Reload work
 
 Install instructions on https://hotreload.net/
 
-You can find project source code from [gitlab](!https://gitlab.com/singularitygroup/hot-reload-for-unity)
+You can find project source code from [gitlab](https://gitlab.com/singularitygroup/hot-reload-for-unity)
 
 ![Modify2dJumpingGameDemo](https://hot-reload-assets.s3.amazonaws.com/assets/hotreload_jump_demo.gif)
 
