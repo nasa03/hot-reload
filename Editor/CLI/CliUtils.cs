@@ -7,7 +7,7 @@ namespace SingularityGroup.HotReload.Editor.Cli {
         public static string GetHotReloadTempDir() {
             if (UnityHelper.Platform == RuntimePlatform.OSXEditor) {
                 // project specific temp directory that is writeable on MacOS (Path.GetTempPath() wasn't when run through HotReload.app)
-                return Path.GetFullPath("Library/com.pancake.hotreload/HotReloadServerTemp");
+                return Path.GetFullPath("Library/com.singularitygroup.hotreload/HotReloadServerTemp");
             } else {
                 return Path.Combine(Path.GetTempPath(), "HotReloadTemp");
             }
@@ -25,7 +25,7 @@ namespace SingularityGroup.HotReload.Editor.Cli {
         }
         
         public static bool TryFindServerExecutable(ICliController controller, out string path) {
-            const string serverBasePath = "Packages/com.pancake.hotreload/Server";
+            const string serverBasePath = "Packages/com.singularitygroup.hotreload/Server";
             var executablePath = controller.GetDefaultExecutablePath(serverBasePath);
             
             if(File.Exists(executablePath)) {

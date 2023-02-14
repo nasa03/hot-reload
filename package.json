@@ -1,8 +1,8 @@
 {
-  "name": "com.pancake.hotreload",
+  "name": "com.singularitygroup.hotreload",
   "displayName": "Hot Reload",
   "description": "Edit any C# function and get immediate updates in your game. Hot Reload works with your existing project, no code changes required.",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "unity": "2021.3",
   "category": "pancake",
   "author": {
